@@ -45,12 +45,6 @@ a img {
 }
 /* menu */
 .toolbar {
-  background: #f7f7f7;
-  background: -webkit-linear-gradient(#f7f7f7, #f1f1f1 80%);
-  background: -moz-linear-gradient(#f7f7f7, #f1f1f1 80%);
-  background: -o-linear-gradient(#f7f7f7, #f1f1f1 80%);
-  background: -ms-linear-gradient(#f7f7f7, #f1f1f1 80%);
-  background: linear-gradient(#f7f7f7, #f1f1f1 80%);
   border-bottom: 1px solid #ccc;
   overflow: hidden;
   padding-top: 4px;
@@ -842,12 +836,6 @@ input[type=checkbox] {
       margin-bottom: 33px
     }
     .toolbar ul.menu_right {
-      background: #f7f7f7;
-      background: -webkit-linear-gradient(#f7f7f7, #f1f1f1 80%);
-      background: -moz-linear-gradient(#f7f7f7, #f1f1f1 80%);
-      background: -o-linear-gradient(#f7f7f7, #f1f1f1 80%);
-      background: -ms-linear-gradient(#f7f7f7, #f1f1f1 80%);
-      background: linear-gradient(#f7f7f7, #f1f1f1 80%);
       width: 100%;
       overflow: hidden;
       height: 32px;
@@ -865,12 +853,7 @@ input[type=checkbox] {
       margin: 0;
       padding: 8px;
     }
-    .toolbar ul li a.selected {
-      background: none !important
-    }
-    #chaticon, #timesliderlink {
-      display: none !important
-    }
+
     .popup {
       -webkit-border-radius: 0;
       -moz-border-radius: 0;
