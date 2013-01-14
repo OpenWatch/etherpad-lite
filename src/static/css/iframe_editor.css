@@ -4,11 +4,11 @@
 html { cursor: text; } /* in Safari, produces text cursor for whole doc (inc. below body) */
 span { cursor: auto; }
 
-::selection {
-  background: #acf;
-}
 ::-moz-selection {
-  background: #acf;
+		background-color: rgba(255, 255, 0, 0.5);
+}
+::selection {
+		background-color: rgba(255, 255, 0, 0.5);
 }
 
 a { cursor: pointer !important; }
