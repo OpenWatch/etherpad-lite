@@ -17,6 +17,7 @@ textarea {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	color: #333333;
 	font-size: 14px;
+	line-height: 20px;
 }
 iframe {
   position: absolute
