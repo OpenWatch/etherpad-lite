@@ -48,9 +48,9 @@ a img {
 }
 /* menu */
 .toolbar {
-  border-bottom: 1px solid #ccc;
   overflow: hidden;
   padding-top: 4px;
+  padding-bottom: 2px;
   width: 100%;
   white-space: nowrap;
   height: 32px;
