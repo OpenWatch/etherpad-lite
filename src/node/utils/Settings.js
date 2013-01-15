@@ -74,7 +74,7 @@ exports.dbSettings = { "filename" : path.join(exports.root, "dirty.db") };
 /**
  * The default Text of a new pad
  */
-exports.defaultPadText = "Welcome to Etherpad Lite!\n\nThis pad text is synchronized as you type, so that everyone viewing this page sees the same text. This allows you to collaborate seamlessly on documents!\n\nEtherpad Lite on Github: http:\/\/j.mp/ep-lite\n";
+exports.defaultPadText = "This is an OpenWatch collaborative investigation pad. Put your findings here!\n\nQuestions:\n\nWho is involved?\n\nWhat do they have to say about it?\n\nWhy are they saying that?\n\nWhat's going to happen next?\n\n======== CONTACTS ==========\n* Name: \n* Title: \n * Phone number: \n * Email: * \n * Facebook \n * Twitter \n\n\nDemand marvelous secrets!\n";
 
 /**
  * A flag that requires any user to have a valid session (via the api) before accessing a pad
