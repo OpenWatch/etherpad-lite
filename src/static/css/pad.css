@@ -166,7 +166,7 @@ a img {
 #editorcontainer {
   position: absolute;
   width: 100%;
-  top: 37px; /* + 1px border */
+  top: 42px; /* + 1px border */
   left: 0px;
   bottom: 0px;
   z-index: 1;
@@ -791,7 +791,7 @@ input[type=checkbox] {
 .stickyChat {
   background-color: #f1f1f1 !important;
   right: 0px !important;
-  top: 37px;
+  top: 42px;
   -webkit-border-radius: 0px !important;
   -moz-border-radius: 0px !important;
   border-radius: 0px !important;
