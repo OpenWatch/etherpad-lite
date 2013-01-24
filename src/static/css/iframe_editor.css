@@ -80,7 +80,7 @@ body {
   white-space: nowrap;
 }
 
-#outerdocbody, #chatbox{
+#outerdocbody, #chattext{
   background-color: rgba(255,255,255,1);
   display: inline-block;
   padding: 4px;
