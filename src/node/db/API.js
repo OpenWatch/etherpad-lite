@@ -255,6 +255,15 @@ exports.getHTML = function(padID, rev, callback)
   });
 }
 
+/**
+setHTML(padID, [rev]) sets the html of a pad 
+
+Example returns:
+
+{code: 0, message:"ok", data: null}
+{code: 1, message:"padID does not exist", data: null}
+{code: 1, message:"text too long", data: null}
+*/
 exports.setHTML = function(padID, html, callback)
 {
   //get the pad
