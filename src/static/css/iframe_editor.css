@@ -1,7 +1,7 @@
 /* These CSS rules are included in both the outer and inner ACE iframe.
    Also see inner.css, included only in the inner one.
 */
-html { cursor: text; } /* in Safari, produces text cursor for whole doc (inc. below body) */
+html { cursor: text; overflow-x: hidden } /* in Safari, produces text cursor for whole doc (inc. below body) */
 span { cursor: auto; }
 
 ::-moz-selection {
@@ -83,7 +83,7 @@ body {
 #outerdocbody, #chattext{
   background-color: rgba(255,255,255,1);
   display: inline-block;
-  padding: 4px;
+  padding: 3px;
   font-size: 14px;
   line-height: 20px;
   color: #555555;
@@ -99,7 +99,6 @@ body {
 }
 
 #outerdocbody{
-	width: 100%;
 }
 
 #outerdocbody:focus{
