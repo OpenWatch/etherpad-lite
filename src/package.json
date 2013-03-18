@@ -12,6 +12,7 @@
                      ],
   "dependencies"   : {
                       "yajsml"                  : "1.1.6",
+                      "pg"                      : "0.14.1",
                       "request"                 : "2.9.100",
                       "require-kernel"          : "1.0.5",
                       "resolve"                 : "0.2.x",
